@@ -1,12 +1,19 @@
 import React, { Component } from "react";
-import {Fade} from 'react-reveal';
+import { Fade } from 'react-reveal';
+import './Combined.css';
 class Home extends Component {
   render() {
     return (
-      <>
+      <div className="home">
         <Fade bottom duration={2000} distance="100px">
-          <h1>Home</h1>
-        </Fade>    </>
+          <div className="home-content">
+          <h1>Invest in a regenerative future.</h1>
+          <h3>Your donation will create a ripple
+  effect of regeneration supporting the health of our nation’s soil, food,
+  people and planet..</h3>
+          </div>
+        </Fade>
+      </div>
     );
   }
 }
