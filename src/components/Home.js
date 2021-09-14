@@ -6,10 +6,10 @@ class Home extends Component {
     return (
       <div className="home">
         <Fade bottom duration={2000} distance="100px">
-          <div className="home-content">
-          <h1>Invest in a regenerative future.</h1>
-          <h3>Your donation will create a ripple
-  effect of regeneration supporting the health of our nation’s soil, food,
+          <div className="component-content">
+            <h1>Invest in a regenerative future.</h1>
+            <h3>Your donation will create a ripple
+            effect of regeneration supporting the health of our nation’s soil, food,
   people and planet..</h3>
           </div>
         </Fade>

@@ -46,6 +46,9 @@ section{
 #contactus{
   background:linear-gradient(-60deg , white 30%, lightgreen 0%);
 }
+#approach{
+  height: auto;
+}
 img{
   width: 8em;
   height: auto;
